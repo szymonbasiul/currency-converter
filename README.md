@@ -1,6 +1,6 @@
 # Szymon Basiul - money changer
 
-<img src="images/Cash.png" width="360">
+![Cantor](images/Cash.png =360x)
 
 
 ## Demo
