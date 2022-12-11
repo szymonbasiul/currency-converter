@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantor walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/container.css">
+    <link rel="stylesheet" href="/form.css">
+    <script defer src="/converter.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend"> Kalkulator walutowy </legend>
+                <p>
+                    Wybierz walutę*
+                </p>
+                <select class="js-currencyInput">
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="USD">USD</option>
+                </select>
+                <p>
+                    Wybierz walutę oraz kwotę transakcji*
+                </p>
+                <label>
+                    <span class="form__labelText">
+                        Kwota:
+                    </span>
+                </label>
+                <label>
+                    <input class="form__field js-currencyAmount" id="amount" name="exchange" type="number"
+                        placeholder="Wprowadź kwotę do wymiany" autofocus min="1" step="0.01" required>
+                </label>
+            </fieldset>
+            <label>
+                <input class="form__button js-submit" type="submit" value="Przelicz">
+            </label>
+            <p class="form__result"> Przeliczona wartość: <strong class="js-result"></strong></p>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
