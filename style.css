@@ -6,10 +6,9 @@ html {
     box-sizing: inherit;
 }
 
-body {
+.body {
     font-family: 'Lato', sans-serif;
     background-image: url("./images/cantorBackground.png");
-    overflow: auto;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-color: #000009;;
 }
