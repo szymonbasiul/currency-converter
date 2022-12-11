@@ -8,5 +8,8 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #000009af;
+    background-image: url("./images/cantorBackground.png");
+    overflow: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
