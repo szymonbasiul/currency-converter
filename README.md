@@ -7,6 +7,14 @@
 
 https://szymonbasiul.github.io/currency-converter/
 
+## Technology and methodology
+
+HTML
+JS
+ES6+
+CSS
+BEM
+
 ## Description
 
 Simple money changer applicaton which serves 4 currencies - PLN, EUR, GBP and USD. 
