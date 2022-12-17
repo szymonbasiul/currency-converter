@@ -1,6 +1,6 @@
 # Szymon Basiul - money changer
 
-<img src="https://raw.githubusercontent.com/szymonbasiul/currency-converter/b0ac5af196740d87ac5821cee66a3842042527c3/images/Cash.png" width="360px">
+<img src="https://github.com/szymonbasiul/currency-converter/raw/main/images/Cash.png" width="360px">
 
 
 ## Demo
